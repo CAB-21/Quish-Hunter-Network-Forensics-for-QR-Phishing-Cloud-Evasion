@@ -38,7 +38,8 @@ Hop 1: https://bit.ly/3NkV9Lg [Status: 301] FINAL DESTINATION: https://drive.goo
 3. Threat Classification: The heuristic analysis engine correctly flagged the final destination, validating the threat intelligence hypothesis that cloud services are being abused.
 [!] RISK: Destination is a Cloud Storage Provider (Often used to bypass firewalls). [!] Verdict: SUSPICIOUS. Proceed with caution.
 
-6. Conclusion
+
+4. Conclusion
 This project proves that relying solely on static IP blacklists or standard email filters is insufficient against modern Quishing campaigns. By combining passive packet sniffing with active URL resolution, defenders can successfully unmask obfuscated attack chains. The methodology developed here serves as a viable proof-of-concept for investigating mobile-first threats and cloud service abuse.
 
 
